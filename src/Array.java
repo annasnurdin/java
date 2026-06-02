@@ -21,5 +21,15 @@ public class Array {
         System.out.println(namaNama[1]); // bisa diubah isinya
 
         System.out.println(namaNama.length);
+
+        String[][] members = { // array dalam array
+                {"annas", "purwo"},
+                {"soleh", "rido"}
+        };
+
+        String[] member1 = members[0];
+        String[] member2 = members[1];
+
+        System.out.println(member1[1]);
     }
 }
