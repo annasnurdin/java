@@ -6,5 +6,11 @@ public class WhileDoWhile {
             System.out.println("Perulangan" + counter);
             counter++;
         }
+
+        var counter2 = 0;
+
+        do {
+            System.out.println("Perulangan 2 " + counter2);
+        } while (counter2 == 100); // meskipun salah, do while tetap akan di eksekusi minimal sekali
     }
 }
